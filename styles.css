@@ -3,6 +3,28 @@ main-background-image: https://web.archive.org/web/20140228114747im_/http://imag
 Button 1 image: https:/web/20140301004259im_/http://images.apple.com/global/nav/images/globalnav_text.png) no-repeat 50% 0;
 */
 
+@font-face {
+  font-family: "Lucida Grande";
+  font-weight: 100;
+  font-style: normal;
+  src: url("fonts/LucidaGrande.ttf");
+}
+
+@font-face {
+  font-family: "Reforma";
+  font-weight: 300;
+  font-style: normal;
+  src: url("fonts/Reforma2018-Blanca.ttf");
+}
+
+* {
+  box-sizing: border-box;
+  font-family: "Lucida Grande", sans-serif;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}
+
 footer a {
   color: #08c;
   text-decoration: none;
@@ -38,22 +60,16 @@ main {
   height: auto;
 }
 
-* {
-  box-sizing: border-box;
-  overflow: auto;
-  margin: 0;
-  padding: 0;
-}
-
 .top {
+  display: grid;
   background-image: url("https://web.archive.org/web/20140228114747im_/http://images.apple.com/v/home/as/images/your_verse_hero.jpg");
   background-position: 50% 100%;
   background-repeat: no-repeat;
   box-sizing: border-box;
-  display: flex;
-  align-items: center;
-  justify-content: center;
   grid-area: top;
+  grid-template-areas:
+    "mainnav"
+    "toptext";
   height: 538px;
   top: 0;
   bottom: 0;
@@ -77,19 +93,45 @@ footer nav {
   width: auto;
 }
 
-footer nav ul li {
-  display: inline-block;
-}
-
 .bottomdiv {
   width: 25%;
   height: 200px;
 }
 
 .mainnav {
-  color: rgb(51, 51, 51);
-  height: 36px;
+  background-color: #333;
+  color: white;
+  display: table;
+  font-size: 12px;
   line-height: 18px;
   margin-top: 50px;
   width: 845px;
+  height: 50px;
+  grid-area: mainnav;
+  text-align: center;
+  vertical-align: middle;
+  box-shadow: rgba(0, 0, 0, 0.3) 0 1px 2px;
+}
+
+.mainnav a {
+  display: table-cell;
+  color: white;
+  text-shadow: rgb(197, 197, 197);
+  text-decoration: none;
+}
+
+.toptext {
+  color: white;
+  font-family: "Reforma", sans-serif;
+  font-size: 2em;
+  font-stretch: semi-expanded;
+  grid-area: toptext;
+}
+
+.toptext p {
+font-size: 2em;
+}
+
+#navlogo1 {
+  height: 29px;
 }
