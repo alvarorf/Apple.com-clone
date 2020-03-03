@@ -1,0 +1,85 @@
+
+/*
+main-background-image: https://web.archive.org/web/20140228114747im_/http://images.apple.com/v/home/as/images/your_verse_hero.jpg
+Button 1 image: https:/web/20140301004259im_/http://images.apple.com/global/nav/images/globalnav_text.png) no-repeat 50% 0;
+*/
+
+a:hover {
+  text-decoration: underline;
+}
+
+html,
+body {
+  box-sizing: border-box;
+  display: grid;
+  grid-template-areas:
+    "main"
+    "footer";
+    height: auto;
+  overflow-x: hidden;
+  width: auto;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  width: 1440px;
+}
+
+main {
+  box-sizing: border-box;
+  display: grid;
+  grid-template-areas:
+    "top"
+    "bottom";
+  overflow: hidden;
+  height: auto;
+}
+
+* {
+  box-sizing: border-box;
+  overflow: auto;
+  margin: 0;
+  padding: 0;
+}
+
+.top {
+  background-image: url('https://web.archive.org/web/20140228114747im_/http://images.apple.com/v/home/as/images/your_verse_hero.jpg');
+  background-position: 50% 100%;
+  background-repeat: no-repeat;
+  box-sizing: border-box;
+  grid-area: top;
+  height: 538px;
+  top: 0;
+  bottom: 0;
+}
+
+.bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  grid-area: bottom;
+}
+
+footer {
+  grid-area: footer;
+}
+
+footer nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: auto;
+}
+
+footer a{
+  text-decoration: none;
+}
+
+footer nav ul li{
+  display: inline-block;
+}
+.bottomdiv{
+  width: 25%;
+  height: 200px;
+}
