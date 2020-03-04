@@ -351,7 +351,7 @@ footer nav {
 }
 
 .search input {
-  background-image: url("/img/magnifier.png");
+  background-image: url('./img/magnifier.png');
   background-size: 19px 19px;
   background-repeat: no-repeat;
   background-color: transparent;
