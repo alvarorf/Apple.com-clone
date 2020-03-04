@@ -2,7 +2,7 @@
 
 > Welcome to my Apple.com's clone, built with html and css. Please enjoy and leave a comment. 
 
-![screenshot]()
+![screenshot](/img/screenshot.png)
 
 Additional description about the project and its features.
 

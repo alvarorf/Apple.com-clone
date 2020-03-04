@@ -159,7 +159,6 @@ footer nav {
 }
 
 .bottomdiv {
-  width: 23.9%;
   height: 200px;
 }
 
@@ -237,7 +236,7 @@ footer nav {
   width: 75%;
   grid-area: text1;
   height: 85px;
-  margin: 0 auto;
+  margin: 10px auto;
 }
 
 #toptext2 {
@@ -257,7 +256,7 @@ footer nav {
   grid-area: text3;
   width: 80%;
   height: 30px;
-  margin: -7% auto;
+  margin: 0 auto;
 }
 
 .toptext p {
