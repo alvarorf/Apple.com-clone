@@ -14,7 +14,7 @@ Additional description about the project and its features.
 
 ## Live Demo
 
-[Live Demo Link](https://rawcdn.githack.com/alvarorf/Apple.com-clone/53a263c40b9d8688c3a29e0ec0f0ec0ab68e2656/index.html)
+[Live Demo Link](https://rawcdn.githack.com/alvarorf/Apple.com-clone/f3877042429704680847175078b7188c0d6e23dd/index.html)
 
 
 ## Getting Started
